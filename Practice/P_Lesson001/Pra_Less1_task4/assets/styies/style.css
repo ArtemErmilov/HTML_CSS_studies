@@ -1,0 +1,32 @@
+            h1 {
+                color: yellow;
+            }
+            
+            .title {
+                color: rgb(47, 0, 255);
+                font-size: 50px;
+            }
+            
+            .text {
+                color: rgb(68, 41, 9);
+            }
+            
+            .text_p {
+                color: rgb(9, 68, 41);
+                font-size: 30px;
+            }
+            
+            .img {
+                width: 50%;
+                height: 50%;
+            }
+            
+            .icon,
+            .link {
+                width: 30px;
+                height: 20px;
+            }
+            
+            .text_links {
+                margin-left: 20px;
+            }
