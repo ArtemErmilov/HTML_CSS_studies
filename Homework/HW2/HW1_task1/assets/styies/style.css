@@ -1,0 +1,47 @@
+            
+            .title_h1 {
+                color: #222222;
+                font-size: 28px;
+                line-height: 36px;
+                font-weight: bold;
+            }
+
+            .title_h2 {
+                color: coral;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 80px;
+            }
+
+            .title_h3 {
+                color: rgb(255, 0, 212);
+                font-size: 30px;
+            }
+            
+            
+            .text_p {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 30px;
+                color: #7D7987;
+            }
+            
+            .img {
+                width: 50%;
+                height: 50%;
+            }
+            
+            .icon,
+            .link {
+                width: 30px;
+                height: 20px;
+            }
+            
+            .text_links {
+                color: cornflowerblue;
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 20px;
+            }

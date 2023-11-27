@@ -1,0 +1,77 @@
+            @font-face {
+                font-family: 'Open Sans', sans-serif;
+                src: url("./assets/fonts/OpenSans-Bold.ttf");
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: 'Open Sans', sans-serif;
+                src: url("./assets/fonts/OpenSans-SemiBold.ttf");
+                font-weight: 600;
+            }
+            h1 {
+                color: yellow;
+            }
+            html {
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            .title {
+                /* color: rgb(47, 0, 255); */
+                /* font-size: 50px; */
+                color: #222222;
+                font-size: 50px;
+                line-height: 36px;
+                font-weight:700;
+                letter-spacing: 5px ;/*Растояние между буквами*/
+                font-style: normal; /*Тип шрифта*/
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .text {
+                color: rgb(68, 41, 9);
+            }
+            
+            .text_p {
+                color: rgb(9, 68, 41);
+                font-size: 30px;
+            }
+            
+            .img {
+                width: 50%;
+                height: 50%;
+            }
+            
+            .icon,
+            .link {
+                width: 30px;
+                height: 20px;
+            }
+            
+            .text_links {
+                margin-left: 20px;
+            }
+            .box-wrapper{
+                display: flex;
+            }
+
+            .box{
+                /* отступы задание чисел - сверху, справа, снизу, слева*/
+                margin: 40px 0 30px 25px;
+                /* отступы задание чисел - сверху, справа - слева, снизу, */
+                margin: 40px 30px 25px;
+                /* отступы задание чисел - сверху - снизу, справа - слева, */
+                margin: 40px 20px ;
+                /* толщина тип линии цвет */
+                border: 3px dotted rgb(202, 25, 25);
+                /* Задаёт отступ внутри рамки со всех сторон*/
+                padding: 40px;
+                padding-left: 10px;
+            }
+
+            .box-text{
+                margin-bottom: 10px;
+            }
+            .box-link{
+                text-decoration: none;
+                color: black;
+            }
