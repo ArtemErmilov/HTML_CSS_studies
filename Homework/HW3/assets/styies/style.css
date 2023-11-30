@@ -1,0 +1,270 @@
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Regular.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 400;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Medium.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 500;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 600;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Bold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 700;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 800;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+html {
+    font-family: 'Open Sans';
+}
+
+* {
+    /* обнуление отступов у всех элементов */
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    /*Расположение текста по горизонтали*/
+
+}
+
+body {
+    background-color: #FFF;
+
+}
+
+.about{
+    width: 700;
+}
+
+.header {
+    margin: auto;
+    margin-top: 14px;
+    display: flex;
+    height: 40px;
+    width: 1170px;
+    justify-content: space-between;
+    /* border: 2px solid black */
+}
+
+.menu_logo {
+    /*logo*/
+
+    width: 137px;
+    /*Ширина*/
+    height: 40px;
+    /*Высота*/
+    margin-left: 0px;
+}
+
+
+.menu {
+    display: flex;
+    /*Слова расположены по диагонали а не в столбик*/
+    justify-content: space-between;
+    /*От чего отталкивается текст space-between - расположение по центу*/
+    align-items: center;
+    height: 40px;
+    /*Высота*/
+    width: 533px;
+    list-style: none;
+    /*Убираются точки у перечислений*/
+
+
+
+}
+
+.menu-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-item-orange {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+/*Home Meta*/
+.intro {
+    display: flex;
+    margin-top: 89px;
+    width: 1170px;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 41px;
+    /* border: 2px solid black */
+}
+
+.intro-left {
+    width: 522px;
+    height: 375px;
+    margin-left: auto;
+    /* border: 2px solid black */
+}
+
+.intro-left_h1_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* border: 1px solid black; */
+
+}
+
+.intro-left_p_sub_title {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+    height: 48px;
+    margin-top: 17px;
+}
+
+.intro-left_button_meta {
+    justify-content: space-between;
+    /*От чего отталкивается текст space-between - расположение по центу*/
+    display: flex;
+    align-items: center;
+    /*Расположение по центру вертикали*/
+    width: 302px;
+    height: 50px;
+    margin-top: 37px;
+    /*расстояние от ближайшего элемента сверху*/
+
+}
+
+.intro-left_button_meta_button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.intro-left_button_meta_video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    /*Убирает подчёркивание у ссылки*/
+
+}
+
+.intro-right {
+    width: 611px;
+    height: 375px;
+    /* border: 2px solid black */
+}
+
+.intro-right_img {
+    width: 545px;
+    height: 375px;
+    margin-left: 0;
+    /*Отступ с лева*/
+}
+
+.logo_BG{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 243px;
+    /* border: 2px solid black */
+
+
+}
+.logo_bar{
+    display: flex;
+    /*Слова расположены по диагонали а не в столбик*/
+    justify-content: center;
+    /*От чего отталкивается текст space-between - расположение по центу*/
+    margin-top: 97px; /*Верхний отступ*/
+    gap: 48px;
+}
+
