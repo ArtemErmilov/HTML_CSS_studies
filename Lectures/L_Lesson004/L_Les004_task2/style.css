@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin:0 auto ;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,4 +29,7 @@ a {
     color: #fff;
    
 }
+
+
+
 
