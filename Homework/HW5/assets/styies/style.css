@@ -380,6 +380,9 @@ body {
 
 .business-card-item {
     background: #FFF;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
 }
 
 .business-card-item-title {
