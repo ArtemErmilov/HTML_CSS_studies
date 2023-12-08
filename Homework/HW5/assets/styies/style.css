@@ -363,7 +363,7 @@ body {
     font-weight: 400;
     line-height: 150%;
     margin-top: 19px;
-    
+
 
 }
 
@@ -375,6 +375,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .business-card-item {
@@ -406,6 +407,8 @@ body {
 }
 
 .business-card-item-title__button {
+    display: flex;
+    align-items: center;
     width: 150px;
     height: 50px;
     background-color: #F25822;
@@ -417,4 +420,13 @@ body {
     line-height: 150%;
     border-radius: 50px;
     margin-top: 39px;
+}
+
+.business-card-item-title__button_p{
+    margin-left: 46px;
+    margin-right: 6px;
+}
+
+.bci-2 {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
 }
