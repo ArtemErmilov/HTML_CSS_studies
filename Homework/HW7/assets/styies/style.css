@@ -1,0 +1,490 @@
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Regular.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 400;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Medium.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 500;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 600;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-Bold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 700;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    /*Подключение шрифтов*/
+    font-family: 'Open Sans';
+    /*Название шрифта*/
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    /*Ссылка на шрифт*/
+    font-weight: 800;
+    /*Размер шрифта*/
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Thin.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* @font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-ThinItalic.ttf");
+    font-style: normal;
+    font-weight: 100;
+} */
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Light.ttf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("../fonts/Lato-LightItalic.ttf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("../fonts/Lato-Italic.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("../fonts/Lato-BoldItalic.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.ttf");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("../fonts/Lato-BlackItalic.ttf");
+    font-style: normal;
+    font-weight: 900;
+}
+
+html {
+    font-family: 'Lato';
+}
+
+* {
+    /* обнуление отступов у всех элементов */
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    /*Расположение текста по горизонтали*/
+
+}
+
+body {
+    background-color: #FFF;
+}
+
+/* Домашнее задание № 6*/
+
+
+.center {
+    /* Общее центрование картинки */
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-v1 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.header-div {
+    height: 75px;
+    background-color: #222;
+
+}
+
+.header {
+    display: flex;
+    height: 75px;
+
+    justify-content: space-between;
+
+}
+
+.header-logs-left {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.header-right-1-2 {
+    display: flex;
+    gap: 25px;
+}
+
+/*1я часть с большой картинкой*/
+
+.show-div {
+    max-height: 764px;
+    background-color: #F1E4E6;
+}
+
+.show {
+    display: flex;
+    gap: 63px;
+}
+
+.show-img {}
+
+.show-right {
+    height: 92px;
+    gap: 16px;
+    margin-top: 289px;
+    display: flex;
+    
+}
+
+.show-righ__rectangle {
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+    ;
+}
+
+.show-righ__text {
+
+    width: 377px;
+}
+
+.show-righ__text_h1 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.show-righ__text_h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.show-righ__text_color {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* 2я часть одежда по возрасту и полу cloth-gender */
+
+.cloth-gender {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.cloth-gender-itm__op {
+    border-color: rgba(33, 22, 22, 0.70);
+    opacity: 0.7;
+
+}
+
+.cloth-gender-itm {
+    position: relative;
+}
+
+.cloth-gender-itm4 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    position: relative;
+}
+
+.cloth-gender-bg{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 22, 22, 0.70);;
+}
+
+.loth-gender-itm_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.loth-gender-itm_text4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.loth-gender-itm_text__p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.loth-gender-itm_text__h2 {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* 3-я часть продукция и описание */
+
+/* Оглавление */
+
+.products {
+    margin-top: 96px;
+}
+
+.products-titel {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-titel-h1 {
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.products-titel-p {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Продукция с ценами */
+.products-description {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.products-description-des {}
+
+.products-description-des__img {
+    width: 360px;
+    height: 420px;
+}
+
+.products-description-des__text {
+    display: flex;
+    background-color: #F8F8F8;
+    width: 360px;
+    height: 166px;
+}
+
+.products-description-des__text_t {
+    margin-top: 24px;
+    margin-left: 18px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+}
+
+.products-description-des__text_t-p1 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.products-description-des__text_t-p2 {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.products-description-des__text_t-p3 {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.products-description-des__img2 {
+    display: flex;
+    background-color: #F7E4E2;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Кнопка */
+.products-pb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 48px;
+    border-color: #FF6A6A;
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    
+}
+
+/* Домашнее задание 7 */
+
+@media screen and (max-width:1439px){
+   
+    .center-v1{
+        max-width: 695px;
+    }
+    .center{
+        max-width: 770px;
+    /* 1я часть с большой картинкой  */
+    }
+    .show{
+        gap: 39px;
+    }
+
+    .show-div{
+        max-height: 368px;
+    }
+    .show-right{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .show-righ__text_h1{
+       font-size: 44px; 
+    }
+    .show-righ__text_h2{
+        font-size: 24px; 
+     }
+     .show-righ__text_color{
+        font-size: 24px; 
+     }
+     /* <!--2я часть одежда по возрасту и полу cloth-gender --> */
+     .cloth-gender{
+        gap: 20px;
+     }
+     /* <!-- 3-я часть продукция и описание --> */
+     /* <!-- Оглавление --> */
+     .products{
+        margin-top: 110px;
+     }
+     .products-titel{
+        gap: 3.3px;
+     }
+     /* <!-- Продукция с ценами --> */
+     .products-description{
+        margin-top: 73px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;      
+     }
+
+     /* <!-- Кнопка --> */
+     .products-pb{
+        margin-top: 32px;
+        margin-bottom: 71px;
+
+     }
+
+}
