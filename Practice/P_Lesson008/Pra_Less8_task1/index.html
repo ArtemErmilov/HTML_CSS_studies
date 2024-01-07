@@ -1,0 +1,43 @@
+<!-- 
+2. Создать поля ввода
+a. Имя
+b. Имейл
+c. Пароль
+d. Возраст (номер)
+e. Дата рождения
+f. Номер телефона
+
+3. Ползунок range (значение от 1 до 10)
+
+4. Все поля ввода должны быть обязательны для ввода
+
+5. На первом поле ввода должен быть автофокус -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Практика8-1_Form</title>
+</head>
+<body>
+    <!-- <button class="button">Клик!</button> -->
+    <form action="" method="post" class="reg-form">
+        <!-- action - то что будет срабатывать, когда нажали на кнопку отправить.
+         method - get - данные которые мы хотим отправить, post - данные, которые мы запрашиваем.-->
+            <label>Имя: <input type="text" class="reg-form__input" required autofocus></label> 
+            <label>Email: <input type="email" class="reg-form__input" required></label> 
+            <label>Пароль: <input type="password" class="reg-form__input" required></label> 
+            <label>Возраст: <input type="number" class="reg-form__input" required></label>
+            <label>Дата рождения: <input type="date" class="reg-form__input" required></label> 
+            <label>Номер телефона: <input type="tel" class="reg-form__input" required></label> 
+            <label>Ползунок: <input type="range" min="1" max="10" value="3"></label>
+            <!-- Создание элемента передвижной  свичь -->
+            <label class="checkbox">
+                <input type="checkbox">
+                <div class="checkbox__text">Switch: </div>
+            </label> 
+    </form>
+</body>
+</html>

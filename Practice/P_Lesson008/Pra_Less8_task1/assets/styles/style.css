@@ -1,0 +1,91 @@
+*{
+margin: 0;
+}
+body{
+    margin: 0;
+}
+.button{
+    font-size: 24px;
+    font-weight: 70px;
+}
+
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* position: relative; Создание родителя */
+}
+
+.reg-form__input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.reg-form__input:focus{
+    /* Подсвечивание выделенного элемента при вводе данных. */
+    outline: 1px solid yellow;
+}
+
+/* .reg-form::before{
+    Псевдо элемент, который идёт до элемента который мы хотим добавить
+    content: 'dfdfdfdf';
+}
+
+.reg-form::after{
+    Псевдо элемент, который идёт после элемента который мы хотим добавить
+    content: 'Раз два три';
+    position: absolute; Позиционирование относительно родителя.
+    left: 0;
+    top: 0;
+} */
+
+/* Создание элемента передвижной  свичь*/
+.checkbox{
+    position: relative;
+}
+
+.checkbox input{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.checkbox__text{
+    position: relative;
+}
+.checkbox__text::before{
+    content: '';
+    position:absolute;
+    top:-4px;
+    left: 50px;
+    width: 50px;
+    height: 26px;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+.checkbox__text::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 51px;
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    background-color:#fff;
+    transition: 100ms;
+    /* Время, за которое будет перемещаться свич */
+}
+.checkbox input:checked + .checkbox__text::before{ 
+    /* Что будет происходить с элементом при нажатие на него*/
+    background-color: darkgoldenrod;
+}
+
+.checkbox input:checked + .checkbox__text::after{ 
+    /* Что будет происходить с элементом при нажатие на него*/
+    left: 76px;
+}
